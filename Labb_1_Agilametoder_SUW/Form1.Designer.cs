@@ -41,9 +41,9 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(136, 7);
+            this.listBox1.Location = new System.Drawing.Point(255, 13);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(650, 472);
+            this.listBox1.Size = new System.Drawing.Size(355, 316);
             this.listBox1.TabIndex = 0;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -53,6 +53,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(117, 20);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -68,23 +69,23 @@
             this.textBox3.Size = new System.Drawing.Size(117, 20);
             this.textBox3.TabIndex = 3;
             // 
-            // button1
+            // Serch
             // 
-            this.Serch.Location = new System.Drawing.Point(13, 94);
-            this.Serch.Name = "button1";
+            this.Serch.Location = new System.Drawing.Point(12, 107);
+            this.Serch.Name = "Serch";
             this.Serch.Size = new System.Drawing.Size(117, 57);
             this.Serch.TabIndex = 4;
-            this.Serch.Text = "button1";
+            this.Serch.Text = "Serch";
             this.Serch.UseVisualStyleBackColor = true;
             this.Serch.Click += new System.EventHandler(this.Serch_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(13, 170);
+            this.button2.Location = new System.Drawing.Point(12, 230);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(117, 62);
             this.button2.TabIndex = 5;
-            this.button2.Text = "button2";
+            this.button2.Text = "Find name here";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.Finddetails_Click);
             // 
@@ -94,7 +95,7 @@
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(117, 93);
             this.button3.TabIndex = 6;
-            this.button3.Text = "button3";
+            this.button3.Text = "Send email";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.sendemail_Click);
             // 

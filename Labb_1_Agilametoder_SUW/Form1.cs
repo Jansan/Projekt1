@@ -31,7 +31,7 @@ namespace Labb_1_Agilametoder_SUW
             addresslist.Add("Bertil     beritochbertil@telia.com     0700000258");
 
         }
-        // Serch
+        // Serch perne name this box
 
         private void Serch_Click(object sender, EventArgs e)
         {
@@ -39,7 +39,7 @@ namespace Labb_1_Agilametoder_SUW
             Stuff();
         }
 
-        // Finddetails
+        // Find person details  here
 
         private void Finddetails_Click(object sender, EventArgs e)
         {
@@ -54,7 +54,7 @@ namespace Labb_1_Agilametoder_SUW
             textBox1.Clear(); textBox2.Clear(); textBox3.Clear();
         }
 
-        //send email
+        //send email 
 
         private void sendemail_Click(object sender, EventArgs e)
         {
@@ -67,6 +67,11 @@ namespace Labb_1_Agilametoder_SUW
 
         // Form 1 Finish
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }
